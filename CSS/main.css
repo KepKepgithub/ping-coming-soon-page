@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width: 300px) {
+  .content_wrap {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: gray;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .content_wrap {
+    max-width: 1920px;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Mobile
+@media only screen and (min-width:300px){
+    .content_wrap{
+        max-width: 1440px;
+        width: 100%;
+        margin:auto;
+        background-color: gray;
+    }
+}
+
+// Desktop
+@media only screen and (min-width:1024px){
+
+    .content_wrap{
+        max-width: 1920px;
+        width: 90%;
+    }
+
+}
