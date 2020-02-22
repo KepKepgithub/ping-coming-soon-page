@@ -21,4 +21,9 @@
     width: 90%;
   }
 }
+
+html, body {
+  font-size: 20px;
+  font-family: "Libre Franklin";
+}
 /*# sourceMappingURL=main.css.map */

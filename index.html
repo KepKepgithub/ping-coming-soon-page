@@ -10,26 +10,44 @@
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
   <!-- wrap for centering all of the content -->
   <div class="content_wrap">
-    <img src="./SVG/logo.svg" alt="logo" onload="SVGInject(this)">
-      We are launching soon!
-  
-      Subscribe and get notified
-  
-      Notify Me
-  
-      &copy; Copyright Ping. All rights reserved.
+
+    <img src="./SVG/logo.svg" alt="logo" onload="SVGInject(this)" class="logo">
+
+      <header class="header">
+        <h1 class="header__heading">We are launching <span class="header__heading--highlight">soon!</span></h1>
+    
+        <p class="header_paragraph">Subscribe and get notified</p>
+      </header>
+
+      <section class="notify">
+        <input type="email" name="email_field" class="notify__input notify__input--active">
+        <button class="notify__button notify__button--hover">Notify Me</button>
+      </section>
+
+      <img src="./images/illustration-dashboard.png" alt="illustration" class="illustration">
+
+      <section class="social_media">
+        <img src="./SVG/iconmonstr-facebook-1.svg" alt="facebook" onload="SVGInject(this)" 
+        class="social_media__icon social_media__icon--hover">
+        <img src="./SVG/iconmonstr-twitter-1.svg" alt="twitter" onload="SVGInject(this)" 
+        class="social_media__icon social_media__icon--hover">
+        <img src="./SVG/iconmonstr-instagram-11.svg" alt="instagram" onload="SVGInject(this)" 
+        class="social_media__icon social_media__icon--hover">
+      </section>
+
+      <section class="copyright">&copy; Copyright Ping. All rights reserved.</section>
   
     <footer>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/KepKepgithub">Emīls Soldatovs(KepKep)</a>.
       </p>
     </footer>
+
   </div>
 </body>
 </html>
