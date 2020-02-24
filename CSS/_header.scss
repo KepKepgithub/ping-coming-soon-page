@@ -1,0 +1,21 @@
+// Mobile
+@media only screen and (min-width:300px){
+    .header{
+        text-align: center;
+        &__heading{
+            color: $gray;
+            font-size: 1.25em;
+            font-weight: 300;
+            margin-bottom: .5rem;
+            &--highlight{
+                color: $dark_blue;
+                font-weight: 700;
+            }
+        }
+        &__paragraph{
+            color: $dark_blue;
+            font-size: .75em;
+            margin-bottom: 2em;
+        }
+    }
+}

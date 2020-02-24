@@ -8,9 +8,14 @@
 @media only screen and (min-width:300px){
     .content_wrap{
         max-width: 1440px;
-        width: 100%;
+        width: 85%;
         margin:auto;
-        background-color: gray;
+        padding-top: 3rem;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
     }
 }
 

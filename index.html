@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./CSS/main.css">
-  <script src="img_to_svg.js"></script>
+  <script src="./JS/img_to_svg.js"></script>
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -15,24 +15,24 @@
   <!-- wrap for centering all of the content -->
   <div class="content_wrap">
 
-    <img src="./SVG/logo.svg" alt="logo" onload="SVGInject(this)" class="logo">
+      <img src="./SVG/logo.svg" alt="logo" onload="SVGInject(this)" class="logo">
 
       <header class="header">
         <h1 class="header__heading">We are launching <span class="header__heading--highlight">soon!</span></h1>
     
-        <p class="header_paragraph">Subscribe and get notified</p>
+        <p class="header__paragraph">Subscribe and get notified</p>
       </header>
 
       <section class="notify">
-        <input type="email" name="email_field" class="notify__input notify__input--active">
+        <input type="email" name="email_field" placeholder="Your email address..." class="notify__input notify__input--wrong">
         <button class="notify__button notify__button--hover">Notify Me</button>
       </section>
 
       <img src="./images/illustration-dashboard.png" alt="illustration" class="illustration">
 
       <section class="social_media">
-        <img src="./SVG/iconmonstr-facebook-1.svg" alt="facebook" onload="SVGInject(this)" 
-        class="social_media__icon social_media__icon--hover">
+          <img src="./SVG/iconmonstr-facebook-1.svg" alt="facebook" onload="SVGInject(this)" 
+          class="social_media__icon social_media__icon--hover">
         <img src="./SVG/iconmonstr-twitter-1.svg" alt="twitter" onload="SVGInject(this)" 
         class="social_media__icon social_media__icon--hover">
         <img src="./SVG/iconmonstr-instagram-11.svg" alt="instagram" onload="SVGInject(this)" 
@@ -44,10 +44,11 @@
     <footer>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.frontendmentor.io/profile/KepKepgithub">Emīls Soldatovs(KepKep)</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/KepKepgithub" target="_blank">Emīls Soldatovs(KepKep)</a>.
       </p>
     </footer>
 
   </div>
+  <script src="./JS/input_check.js"></script>
 </body>
 </html>
