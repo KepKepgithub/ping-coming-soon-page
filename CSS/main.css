@@ -122,11 +122,11 @@ html, body {
     padding: 1em 0 1em 0;
     border-radius: 2rem;
     cursor: pointer;
-    -webkit-transition: 100ms ease;
-    transition: 100ms ease;
+    -webkit-transition: 50ms ease;
+    transition: 50ms ease;
   }
   .notify__button--hover:hover {
-    opacity: .9;
+    opacity: .8;
   }
 }
 
@@ -153,8 +153,6 @@ html, body {
   .notify__button {
     padding: 1.2em 0 1.2em 0;
     width: 32%;
-    -webkit-transition: all 1000ms;
-    transition: all 1000ms;
   }
 }
 
