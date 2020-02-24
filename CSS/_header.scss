@@ -2,6 +2,7 @@
 @media only screen and (min-width:300px){
     .header{
         text-align: center;
+        margin-bottom: 2em;
         &__heading{
             color: $gray;
             font-size: 1.25em;
@@ -15,7 +16,18 @@
         &__paragraph{
             color: $dark_blue;
             font-size: .75em;
-            margin-bottom: 2em;
+        }
+    }
+}
+
+//desktop
+@media only screen and (min-width:1024px){
+    .header{
+        &__heading{
+            font-size: 2em;
+        }
+        &__paragraph{
+            font-size: 1em;
         }
     }
 }

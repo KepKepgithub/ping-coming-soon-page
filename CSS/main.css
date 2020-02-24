@@ -28,7 +28,7 @@
 @media only screen and (min-width: 1024px) {
   .content_wrap {
     max-width: 1920px;
-    width: 90%;
+    width: 60%;
   }
 }
 
@@ -44,9 +44,16 @@ html, body {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 4rem;
+  }
+}
+
 @media only screen and (min-width: 300px) {
   .header {
     text-align: center;
+    margin-bottom: 2em;
   }
   .header__heading {
     color: #969696;
@@ -61,7 +68,15 @@ html, body {
   .header__paragraph {
     color: #151f29;
     font-size: .75em;
-    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__heading {
+    font-size: 2em;
+  }
+  .header__paragraph {
+    font-size: 1em;
   }
 }
 
@@ -113,10 +128,43 @@ html, body {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .notify {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 27rem;
+  }
+  .notify__input {
+    padding: 1.2em 0 1.2em 2em;
+    width: 68%;
+    margin: 0;
+    margin-right: .5rem;
+  }
+  .notify__button {
+    padding: 1.2em 0 1.2em 0;
+    width: 32%;
+  }
+}
+
 @media only screen and (min-width: 300px) {
   .illustration {
     width: 100%;
     margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .illustration {
+    width: 45%;
+    margin-bottom: 3rem;
   }
 }
 
