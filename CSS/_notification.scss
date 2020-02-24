@@ -14,6 +14,7 @@
             outline: none; //removes default outline
             border: 1px solid $light_blue;
             margin-bottom: .8em;
+            transition: all 100ms ease;
             &::placeholder{
                 color: $light_blue;
             }
@@ -27,7 +28,7 @@
             border-radius: 2rem;
             cursor: pointer;
 
-            transition: 100ms ease;
+            transition:100ms ease;
             &--hover{
                 &:hover{
                     opacity: .9;
@@ -52,6 +53,8 @@
         &__button{
             padding: 1.2em 0 1.2em 0;
             width: 32%;
+            transition: all 1000ms;
         }
     }
 }
+
